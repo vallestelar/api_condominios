@@ -1,6 +1,7 @@
 
 ### para levantar la aplicacion
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
+
 
 ### la api se levanta en este puerto
 http://localhost:8000/
