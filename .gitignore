@@ -1,0 +1,36 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos temporales y del sistema
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+
+# Archivos de editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de test/pytest
+.pytest_cache/
+coverage/
+htmlcov/
+*.cover
+*.pyc
+
+# Archivos de despliegue
+*.bak
