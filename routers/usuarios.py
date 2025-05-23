@@ -14,7 +14,8 @@ def get_db():
         yield db
     finally:
         db.close()
-
+        
+#añado un comentario para comprobar el despliegue continuo
 @router.get("/")
 def listar_usuarios(db: Session = Depends(get_db)):
     return db.query(Usuario).all()
